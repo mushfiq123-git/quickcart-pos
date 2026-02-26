@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login - QuickCart</title>
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Segoe UI;
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:40px;
+    border-radius:15px;
+    backdrop-filter:blur(10px);
+    text-align:center;
+    width:300px;
+}
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+button{
+    width:100%;
+    padding:10px;
+    background:#00c896;
+    border:none;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+<div class="card">
+    <h2>QuickCart POS</h2>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+</div>
+</body>
+</html>
