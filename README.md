@@ -1,5 +1,6 @@
-QuickCart POS is a smart inventory and billing system designed for small businesses.
-It helps shop owners manage products, track sales, and generate invoices easily.
+#QuickCart POS
+   QuickCart POS is a smart inventory and billing system designed for small businesses.
+   It helps shop owners manage products, track sales, and generate invoices easily.
 #Features: 
     -Product inventory management
     -real-time stock tracking
